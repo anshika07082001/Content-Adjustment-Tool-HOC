@@ -112,3 +112,24 @@
   flex-direction: row;
   margin: 10px;
 }
+
+@media screen and (max-width:800px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }  
+  .mainLeft {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .toolDiv {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }  
+}
